@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    /* navbar */
+    header {
+        position: sticky;
+        top: 0;
+    }
+
+    nav {
+
+        display: flex;
+        justify-content: space-around;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 15px;
+        background-color: white;
+
+
+    }
+
+    ul {
+        display: flex;
+        list-style: none;
+        gap: 20px;
+        padding: 10px;
+
+    }
+
+    /* between elements */
+    .cont {
+        text-align: center;
+        font-family:  Verdana, Geneva, Tahoma, sans-serif;
+
+
+    }
+
+    main h1:nth-child(1) {
+        font-size: 47px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-bottom: 30px;
+        font-weight: 500;
+
+    }
+
+    .bo {
+        font-weight: 600;
+    }
+
+    .p1 {
+        text-align: center;
+        padding-top: 43px;
+        font-size: 25px;
+
+    }
+
+    .p2 {
+
+        text-align: center;
+        font-size: 25px;
+        margin-top: -48px;
+
+    }
+
+    .contain {
+        display: flex;
+        margin-left: 192px;
+        gap: 10px;
+        padding-top: 99px;
+    }
+
+    .subc {
+        display: flex;
+        align-items: center;
+        justify-items: center;
+
+    }
+
+    .subc span:nth-child(1) {
+        font-size: 28px;
+        font-weight: 100;
+    }
+
+    /* grids */
+    .normal {
+        padding-left: 180px;
+        padding-right: 180px;
+
+    }
+
+    .container {
+        padding-top: 32px;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        row-gap: 27px;
+        /* padding-left: 32px; */
+
+
+    }
+
+    .grido {
+        height: 199px;
+        width: 324px;
+        text-align: center;
+        background-color: #1a242414;
+        border-radius: 8px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    }
+
+
+
+    button {
+        height: 45px;
+        width: 133px;
+
+        margin-right: 20px;
+        background-color: #4ec94ee6;
+        border-radius: 6px;
+        color: antiquewhite;
+        border: none;
+        cursor: unset;
+
+    }
+
+
+
+
+
+    h3 {
+        padding-top: 22px;
+
+    }
+
+    .ex {
+        background-color: #11c4c4;
+        margin-left: 18px;
+
+    }
+
+    p {
+        padding-bottom: 26px;
+        margin-top: -13px;
+
+    }
+
+
+    @media screen and (max-width: 3684px) {
+
+
+        .container {
+            align-items: center;
+            justify-items: center;
+
+
+        }
+    }
+
+
+    @media screen and (max-width: 1324px) {
+
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+
+        }
+    }
+
+    @media screen and (max-width: 1021px) {
+
+        .container {
+            display: grid;
+            grid-template-columns: 1fr;
+            align-items: center;
+            justify-items: center;
+        }
+
+        .grido {
+            align-items: center;
+            justify-items: center;
+        }
+    }
+</style>
+
+<body>
+    <!-- navbar -->
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="https://www.ultraedit.com/wp-content/uploads/2023/01/UE-Logo-1.webp" alt="" height="60px">
+
+            </div>
+            <div>
+                <ul>
+                    <li>Produsts<i class="fa-solid fa-chevron-down"></i>
+                    </li>
+                    <li>Pricing<i class="fa-solid fa-chevron-down"></i>
+                    </li>
+                    <li>Resource<i class="fa-solid fa-chevron-down"></i>
+                    </li>
+                    <li>About us</li>
+                    <li><i class="fa-brands fa-weibo"></i></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+
+
+    <main>
+        <div class="cont">
+            <h1>
+                Download <span class="bo">UltraEdit</span> for Windows <img
+                    src="https://www.ultraedit.com/wp-content/uploads/2022/10/Reviews.png" alt=""></h1>
+            <p class="p1">Download and try UltraEdit before you buy it! This download includes the full Windows
+            </p>
+            <p class="p2"> version of the text editor.</p>
+            <button style="    width: 350px;
+        background-color: #00b6d1;    margin-top: -13px;font-family: Verdana, Geneva, Tahoma, sans-serif;font-weight: bold;color: white;
+">DOWNLOAD MAC OR LINUX VERSION</button>
+        </div>
+
+
+        <div class="contain">
+
+            <img src="https://th.bing.com/th/id/OIP.1FVZlVkNW8yerH-m5PB-gQAAAA?pid=ImgDet&w=150&h=150&c=7&dpr=2" alt=""
+                height="60">
+            <div class="subc">
+                <span>Download UltraEdit&nbsp;</span> <small>v2024.0(released 04/19/2024) | <a
+                        href="">Hotfix</a></small>
+
+            </div>
+        </div>
+    </main>
+
+
+    <!-- grids -->
+
+
+
+    <div class="normal">
+        <div class="container">
+            <div class="grido">
+                <h3 style="padding-bottom: 49px;">English</h3>
+                <a href="ue_english_64.exe"><button class="ex">Download 64 bit</button></a><a
+                    href="ue_english_64.exe"><button>Download 64 bit</button></a>
+            </div>
+            <div class="grido">
+                <h3> Deutsch
+                </h3>
+                <p>German</p>
+
+                <a href="ue_english_64.exe"><button class="ex">Download 64 bit</button></a><a
+                    href="ue_english_64.exe"><button>Download 64 bit</button></a>
+            </div>
+            <div class="grido">
+                <h3>Italiaon</h3>
+                <p>Italian
+                </p>
+
+                <a href="ue_english_64.exe"><button class="ex">Download 64 bit</button></a><a
+                    href="ue_english_64.exe"><button>Download 64 bit</button></a>
+            </div>
+            <div class="grido">
+                <h3>Español</h3>
+                <p>Spanish</p>
+                <a href="ue_english_64.exe"><button class="ex">Download 64 bit</button></a><a
+                    href="ue_english_64.exe"><button>Download 64 bit</button></a>
+            </div>
+            <div class="grido">
+                <h3>French</h3>
+                <p>Italian</p>
+                <a href="ue_english_64.exe"><button class="ex">Download 64 bit</button></a><a
+                    href="ue_english_64.exe"><button>Download 64 bit</button></a>
+            </div>
+            <div class="grido">
+                <h3>Português brasileiro</h3>
+                <p>Brazilian Portuguese</p>
+
+                <a href="ue_english_64.exe"><button class="ex">Download 64 bit</button></a><a
+                    href="ue_english_64.exe"><button>Download 64 bit</button></a>
+            </div>
+            <div class="grido">
+                <h3>日本</h3>
+                <p>Japanese</p>
+
+                <a href="ue_english_64.exe"><button class="ex">Download 64 bit</button></a><a
+                    href="ue_english_64.exe"><button>Download 64 bit</button></a>
+            </div>
+            <div class="grido">
+                <h3>한국어</h3>
+                <p>Korean</p>
+
+                <a href="ue_english_64.exe"><button class="ex">Download 64 bit</button></a><a
+                    href="ue_english_64.exe"><button>Download 64 bit</button></a>
+            </div>
+            <div class="grido">
+                <h3>中国</h3>
+                <p>Chinese</p>
+
+                <a href="ue_english_64.exe"><button class="ex">Download 64 bit</button></a><a
+                    href="ue_english_64.exe"><button>Download 64 bit</button></a>
+            </div>
+            <div class="grido">
+                <h3>中國</h3>
+                <p>Traditional Chinese</p>
+
+                <a href="ue_english_64.exe"><button class="ex">Download 64 bit</button></a><a
+                    href="ue_english_64.exe"><button>Download 64 bit</button></a>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- icons -->
+    <script src="https://kit.fontawesome.com/303c66277c.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
